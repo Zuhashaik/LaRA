@@ -41,7 +41,8 @@ LaRA/
 ├── train_LaRA.ipynb
 ├── requirements.txt
 ├── README.md
-└── LICENSE```
+└── LICENSE
+```
 
 
 # Setup Instructions for LaRA Environment for speech2unit dataset modeling
