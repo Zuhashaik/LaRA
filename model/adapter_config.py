@@ -10,7 +10,7 @@ def attach_adapter(model, rank=None, alpha=None, target_modeules=None):
 
     # If no specific alpha is provided, use the rank value as the default
     if alpha is None:
-        lora_alpha = rank  # Use rank as default alpha if not provided
+        lora_alpha = 2048  # Use rank as default alpha if not provided
     else:
         lora_alpha = alpha  # Use the provided alpha value
 
