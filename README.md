@@ -26,7 +26,7 @@ And we show our findings in the paper.
 ---
 
 ## 📂 **Directory Structure**
-
+```
 LaRA/
 ├── model
 │   ├── adapter_config.py
@@ -36,12 +36,12 @@ LaRA/
 │   ├── dailytalk_modelling.ipynb
 │   ├── librispeech_modelling.ipynb
 │   ├── speech2unit.py
-│   ├── unit2speech/
-│   ├── sample.flac
+│   ├── speech2unit.ipynb
+├── unit2speech/
 ├── train_LaRA.ipynb
 ├── requirements.txt
 ├── README.md
-└── LICENSE
+└── LICENSE```
 
 
 # Setup Instructions for LaRA Environment for speech2unit dataset modeling
@@ -64,3 +64,11 @@ pip --version
 %pip install joblib fire
 %pip install fairseq
 %pip install soundfile einops scikit-learn
+```
+
+## 📑 Cite This Work
+If you find this work useful, please consider citing our paper:
+
+```bibtex
+soon
+```
