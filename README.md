@@ -13,7 +13,7 @@ Integrating speech and text capabilities into large language models (LLMs) is a 
 
 The architecture below provides a visual breakdown of the core components of the model:
 
-![Model Architecture](path_to_your_main_architecture_image.png)
+![Model Architecture](LaRA/model/Speech-LLM.png)
 
 **Architecture Details**:
 
