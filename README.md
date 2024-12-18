@@ -70,6 +70,12 @@ pip --version
 ## 📑 Cite This Work
 If you find this work useful, please consider citing our paper:
 
-```bibtex
-soon
+```
+@inproceedings{shaik2024lara,
+  title={LaRA: Large Rank Adaptation for Speech and Text Cross-Modal Learning in Large Language Models},
+  author={Shaik, Zuhair and Hegde, Pradyoth and Bannulmath, Prashant and Deepak, T},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2024},
+  pages={8201--8211},
+  year={2024}
+}
 ```
