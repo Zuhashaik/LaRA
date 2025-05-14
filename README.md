@@ -71,11 +71,20 @@ pip --version
 If you find this work useful, please consider citing our paper:
 
 ```
-@inproceedings{shaik2024lara,
-  title={LaRA: Large Rank Adaptation for Speech and Text Cross-Modal Learning in Large Language Models},
-  author={Shaik, Zuhair and Hegde, Pradyoth and Bannulmath, Prashant and Deepak, T},
-  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2024},
-  pages={8201--8211},
-  year={2024}
+@inproceedings{shaik-etal-2024-lara,
+    title = "{L}a{RA}: Large Rank Adaptation for Speech and Text Cross-Modal Learning in Large Language Models",
+    author = "Shaik, Zuhair Hasan  and
+      Hegde, Pradyoth  and
+      Bannulmath, Prashant  and
+      T, Deepak K",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.480/",
+    doi = "10.18653/v1/2024.findings-emnlp.480",
+    pages = "8201--8211",
+    abstract = "Integrating speech and text capabilities into large language models (LLMs) is a challenging task and we present Large Rank Adaptation (LaRA) for effective cross-modal integration of speech and text in the LLM framework. Unlike conventional LoRA, our method requires significantly larger ranks comparable to the pretrained weights to accommodate the complexities of speech-text cross-modality learning. The approach utilizes HuBERT to convert speech into discrete tokens and fine-tunes the pretrained LLM to adapt to cross-modal inputs and outputs. The work employs a Hi-Fi GAN vocoder to synthesize speech waveforms from the generated speech units. The initial studies use the Librispeech corpus to teach the model the relationships between speech and text, and Daily Talk, which involves dialog conversations, to adapt for interaction. The proposed work demonstrates adaptation for spoken and text conversations. However, the proposed framework can be easily extended to other cross-modal applications."
 }
 ```
